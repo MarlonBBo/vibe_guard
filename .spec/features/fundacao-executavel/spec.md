@@ -1,7 +1,7 @@
 # Spec: Fundacao executavel
 
 > feature: fundacao-executavel
-> status: pronta
+> status: auditada
 
 <!--
   Como ler este arquivo (o formato é verificado por `onp-spec audit`):
