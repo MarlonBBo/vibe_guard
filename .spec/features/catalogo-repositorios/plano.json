@@ -1,0 +1,109 @@
+{
+  "runId": "vibe_guard-catalogo-repositorios-mt130phs",
+  "feature": "catalogo-repositorios",
+  "agent": "codex",
+  "modo": "paralelo",
+  "paralelizar": [
+    "T-006",
+    "T-007"
+  ],
+  "modeloForcado": "gpt-5.6-terra",
+  "esforcoForcado": "medium",
+  "geradoEm": "2026-08-20 05:30",
+  "branchTrabalho": "spec/catalogo-repositorios",
+  "baseDir": ".spec/features/catalogo-repositorios",
+  "specDir": ".spec",
+  "repoName": "vibe_guard",
+  "logsDir": "../onp-worktrees/vibe_guard-catalogo-repositorios-logs",
+  "ondas": [
+    [
+      "faixa-1",
+      "faixa-2"
+    ]
+  ],
+  "faixas": [
+    {
+      "id": "faixa-1",
+      "branch": "spec/catalogo-repositorios-faixa-1",
+      "worktree": "../onp-worktrees/vibe_guard-catalogo-repositorios-faixa-1",
+      "tarefas": [
+        {
+          "id": "T-006",
+          "titulo": "Inspecionar e normalizar repositorios publicos do GitHub",
+          "modelo": "gpt-5.6-terra",
+          "esforco": "medium",
+          "arquivos": [
+            "src/modules/repositories/github-repository.ts",
+            "tests/github-repository.test.ts"
+          ],
+          "refs": [
+            "US-006",
+            "AC-010",
+            "AC-011",
+            "AC-012"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faixa-2",
+      "branch": "spec/catalogo-repositorios-faixa-2",
+      "worktree": "../onp-worktrees/vibe_guard-catalogo-repositorios-faixa-2",
+      "tarefas": [
+        {
+          "id": "T-007",
+          "titulo": "Persistir o catalogo no PostgreSQL",
+          "modelo": "gpt-5.6-terra",
+          "esforco": "medium",
+          "arquivos": [
+            "migrations/002-create-repositories.sql",
+            "src/modules/repositories/repository.ts",
+            "src/modules/repositories/repository-store.ts",
+            "tests/repository-store.test.ts"
+          ],
+          "refs": [
+            "US-006",
+            "US-007",
+            "US-008",
+            "AC-010",
+            "AC-013",
+            "AC-014",
+            "AC-015",
+            "AC-016"
+          ]
+        }
+      ]
+    }
+  ],
+  "sequenciais": [
+    {
+      "id": "T-008",
+      "titulo": "Expor a API de repositorios e integrar a aplicacao",
+      "modelo": "gpt-5.6-terra",
+      "esforco": "medium",
+      "arquivos": [
+        "src/modules/repositories/repositories-router.ts",
+        "src/modules/repositories/repository-schemas.ts",
+        "src/modules/repositories/github-repository.ts",
+        "src/modules/repositories/repository-store.ts",
+        "src/app/create-app.ts",
+        "src/app/server.ts",
+        "tests/repositories-api.test.ts"
+      ],
+      "refs": [
+        "US-006",
+        "US-007",
+        "US-008",
+        "AC-010",
+        "AC-011",
+        "AC-012",
+        "AC-013",
+        "AC-014",
+        "AC-015",
+        "AC-016"
+      ]
+    }
+  ],
+  "concluidas": [],
+  "avisos": []
+}

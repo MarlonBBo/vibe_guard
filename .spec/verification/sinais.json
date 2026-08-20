@@ -261,6 +261,96 @@
       "primeiraVez": "2026-08-20T04:42:21.816Z",
       "ultimaVez": "2026-08-20T04:43:22.845Z",
       "gitRev": "94f9b9c"
+    },
+    "ARQUIVO_INEXISTENTE::catalogo-repositorios::T-006": {
+      "codigo": "ARQUIVO_INEXISTENTE",
+      "feature": "catalogo-repositorios",
+      "ref": "T-006",
+      "ocorrencias": 2,
+      "primeiraVez": "2026-08-20T05:25:57.144Z",
+      "ultimaVez": "2026-08-20T05:25:57.156Z",
+      "gitRev": "dfe96e4"
+    },
+    "ARQUIVO_INEXISTENTE::catalogo-repositorios::T-007": {
+      "codigo": "ARQUIVO_INEXISTENTE",
+      "feature": "catalogo-repositorios",
+      "ref": "T-007",
+      "ocorrencias": 4,
+      "primeiraVez": "2026-08-20T05:25:57.156Z",
+      "ultimaVez": "2026-08-20T05:25:57.156Z",
+      "gitRev": "dfe96e4"
+    },
+    "ARQUIVO_INEXISTENTE::catalogo-repositorios::T-008": {
+      "codigo": "ARQUIVO_INEXISTENTE",
+      "feature": "catalogo-repositorios",
+      "ref": "T-008",
+      "ocorrencias": 5,
+      "primeiraVez": "2026-08-20T05:25:57.156Z",
+      "ultimaVez": "2026-08-20T05:25:57.156Z",
+      "gitRev": "dfe96e4"
+    },
+    "AC_SEM_TESTE::catalogo-repositorios::AC-010": {
+      "codigo": "AC_SEM_TESTE",
+      "feature": "catalogo-repositorios",
+      "ref": "AC-010",
+      "ocorrencias": 1,
+      "primeiraVez": "2026-08-20T05:25:57.156Z",
+      "ultimaVez": "2026-08-20T05:25:57.156Z",
+      "gitRev": "dfe96e4"
+    },
+    "AC_SEM_TESTE::catalogo-repositorios::AC-011": {
+      "codigo": "AC_SEM_TESTE",
+      "feature": "catalogo-repositorios",
+      "ref": "AC-011",
+      "ocorrencias": 1,
+      "primeiraVez": "2026-08-20T05:25:57.156Z",
+      "ultimaVez": "2026-08-20T05:25:57.156Z",
+      "gitRev": "dfe96e4"
+    },
+    "AC_SEM_TESTE::catalogo-repositorios::AC-012": {
+      "codigo": "AC_SEM_TESTE",
+      "feature": "catalogo-repositorios",
+      "ref": "AC-012",
+      "ocorrencias": 1,
+      "primeiraVez": "2026-08-20T05:25:57.156Z",
+      "ultimaVez": "2026-08-20T05:25:57.156Z",
+      "gitRev": "dfe96e4"
+    },
+    "AC_SEM_TESTE::catalogo-repositorios::AC-013": {
+      "codigo": "AC_SEM_TESTE",
+      "feature": "catalogo-repositorios",
+      "ref": "AC-013",
+      "ocorrencias": 1,
+      "primeiraVez": "2026-08-20T05:25:57.156Z",
+      "ultimaVez": "2026-08-20T05:25:57.156Z",
+      "gitRev": "dfe96e4"
+    },
+    "AC_SEM_TESTE::catalogo-repositorios::AC-014": {
+      "codigo": "AC_SEM_TESTE",
+      "feature": "catalogo-repositorios",
+      "ref": "AC-014",
+      "ocorrencias": 1,
+      "primeiraVez": "2026-08-20T05:25:57.156Z",
+      "ultimaVez": "2026-08-20T05:25:57.156Z",
+      "gitRev": "dfe96e4"
+    },
+    "AC_SEM_TESTE::catalogo-repositorios::AC-015": {
+      "codigo": "AC_SEM_TESTE",
+      "feature": "catalogo-repositorios",
+      "ref": "AC-015",
+      "ocorrencias": 1,
+      "primeiraVez": "2026-08-20T05:25:57.156Z",
+      "ultimaVez": "2026-08-20T05:25:57.156Z",
+      "gitRev": "dfe96e4"
+    },
+    "AC_SEM_TESTE::catalogo-repositorios::AC-016": {
+      "codigo": "AC_SEM_TESTE",
+      "feature": "catalogo-repositorios",
+      "ref": "AC-016",
+      "ocorrencias": 1,
+      "primeiraVez": "2026-08-20T05:25:57.156Z",
+      "ultimaVez": "2026-08-20T05:25:57.156Z",
+      "gitRev": "dfe96e4"
     }
   }
 }
