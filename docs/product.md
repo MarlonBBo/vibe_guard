@@ -89,9 +89,9 @@ resultado inferior a zero em 0.
 
 ## Decisões de produto pendentes
 
-- comportamento para solicitações repetidas do mesmo repositório e commit;
+- comportamento para solicitações repetidas da mesma análise de repositório e commit;
 - catálogo exato das primeiras regras determinísticas;
-- paginação e limites operacionais da API;
+- paginação e limites operacionais das consultas de análises e findings;
 - limites de tamanho, tempo e rede aplicados ao clone.
 
 ## Decisões confirmadas
@@ -102,3 +102,7 @@ resultado inferior a zero em 0.
   enfileirar o job;
 - o score começa em 100 e é limitado ao intervalo de 0 a 100;
 - a API do MVP não possui autenticação e não deve ser exposta publicamente.
+- o catálogo aceita inicialmente somente repositórios públicos do GitHub via HTTPS;
+- `POST /repositories` recebe somente a URL e deriva nome, provedor, identificador externo e branch padrão;
+- URLs de repositórios repetidas respondem `409 Conflict`;
+- `GET /repositories` não possui paginação no MVP.

@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "proximoId": 3,
+  "licoes": [
+    {
+      "id": "L-001",
+      "texto": "Crie os testes anotados logo apos fechar os criterios de aceite, antes de iniciar a implementacao.",
+      "chave": "AC_SEM_TESTE::crie os testes anotados logo apos fechar os criterios de aceite antes de iniciar a implementacao",
+      "sinal": "AC_SEM_TESTE",
+      "escopo": null,
+      "status": "candidata",
+      "recorrencia": 1,
+      "features": [
+        "catalogo-repositorios"
+      ],
+      "evidencias": [
+        {
+          "fonte": "AC-010",
+          "feature": "catalogo-repositorios",
+          "quando": "2026-08-20T05:46:39.195Z",
+          "gitRev": "dfe96e4"
+        }
+      ],
+      "penalidades": 0,
+      "criadaEm": "2026-08-20T05:46:39.195Z",
+      "ultimaVez": "2026-08-20T05:46:39.195Z"
+    },
+    {
+      "id": "L-002",
+      "texto": "Depois de fechar as tarefas, crie os arquivos mapeados antes de tratar o audit como gate final.",
+      "chave": "ARQUIVO_INEXISTENTE::depois de fechar as tarefas crie os arquivos mapeados antes de tratar o audit como gate final",
+      "sinal": "ARQUIVO_INEXISTENTE",
+      "escopo": null,
+      "status": "candidata",
+      "recorrencia": 1,
+      "features": [
+        "catalogo-repositorios"
+      ],
+      "evidencias": [
+        {
+          "fonte": "T-006",
+          "feature": "catalogo-repositorios",
+          "quando": "2026-08-20T05:46:40.262Z",
+          "gitRev": "dfe96e4"
+        }
+      ],
+      "penalidades": 0,
+      "criadaEm": "2026-08-20T05:46:40.262Z",
+      "ultimaVez": "2026-08-20T05:46:40.262Z"
+    }
+  ]
+}

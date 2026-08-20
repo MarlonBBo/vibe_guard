@@ -1,0 +1,57 @@
+{
+  "feature": "fundacao-executavel",
+  "timestamp": "2026-08-20T05:45:58.194Z",
+  "gitRev": "50b674d",
+  "command": "npm test --silent",
+  "reporter": "tap",
+  "exitCode": 0,
+  "testsParsed": 27,
+  "results": {
+    "AC-001": {
+      "status": "pass",
+      "testName": "@spec:AC-001 npm ci has a Node 24 manifest and lockfile",
+      "method": "tap"
+    },
+    "AC-002": {
+      "status": "pass",
+      "testName": "@spec:AC-002 documented local quality commands match the project gate",
+      "method": "tap"
+    },
+    "AC-003": {
+      "status": "pass",
+      "testName": "@spec:AC-003 rejects invalid environment without exposing its secret value",
+      "method": "tap"
+    },
+    "AC-004": {
+      "status": "pass",
+      "testName": "@spec:AC-004 writes structured logs with service identity and no secrets",
+      "method": "tap"
+    },
+    "AC-005": {
+      "status": "pass",
+      "testName": "@spec:AC-005 responds to health checks without infrastructure configuration",
+      "method": "tap"
+    },
+    "AC-006": {
+      "status": "pass",
+      "testName": "@spec:AC-006 returns 200 only when PostgreSQL and Redis are both ready",
+      "method": "tap"
+    },
+    "AC-007": {
+      "status": "pass",
+      "testName": "@spec:AC-007 Compose defines the API, worker, PostgreSQL and Redis topology",
+      "method": "tap"
+    },
+    "AC-008": {
+      "status": "pass",
+      "testName": "@spec:AC-008 CI installs from the lockfile and runs the complete Node 24 gate",
+      "method": "tap"
+    },
+    "AC-009": {
+      "status": "pass",
+      "testName": "@spec:AC-009 foundation manifest has no AI, LLM, or RAG dependency",
+      "method": "tap"
+    }
+  },
+  "principles": {}
+}

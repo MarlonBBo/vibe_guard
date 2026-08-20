@@ -1,5 +1,5 @@
 {
-  "testCommand": "node --test",
+  "testCommand": "npm test --silent",
   "reporter": "tap",
   "testGlobs": [
     "test/**",
