@@ -1,0 +1,47 @@
+{
+  "feature": "catalogo-repositorios",
+  "timestamp": "2026-08-20T05:45:41.529Z",
+  "gitRev": "50b674d",
+  "command": "npm test --silent",
+  "reporter": "tap",
+  "exitCode": 0,
+  "testsParsed": 27,
+  "results": {
+    "AC-010": {
+      "status": "pass",
+      "testName": "@spec:AC-010 canonicalizes a public GitHub URL and derives repository metadata without cloning",
+      "method": "tap"
+    },
+    "AC-011": {
+      "status": "pass",
+      "testName": "@spec:AC-011 rejects malformed bodies and non-canonical GitHub URLs before remote inspection",
+      "method": "tap"
+    },
+    "AC-012": {
+      "status": "pass",
+      "testName": "@spec:AC-012 reports an inaccessible repository when git cannot resolve its default branch",
+      "method": "tap"
+    },
+    "AC-013": {
+      "status": "pass",
+      "testName": "@spec:AC-013 POST /repositories rejects duplicate canonical URLs and preserves one record",
+      "method": "tap"
+    },
+    "AC-014": {
+      "status": "pass",
+      "testName": "@spec:AC-014 GET /repositories lists the complete catalog in newest-first deterministic order",
+      "method": "tap"
+    },
+    "AC-015": {
+      "status": "pass",
+      "testName": "@spec:AC-015 GET /repositories/:id returns the requested public repository",
+      "method": "tap"
+    },
+    "AC-016": {
+      "status": "pass",
+      "testName": "@spec:AC-016 GET /repositories/:id reports a missing valid UUID with a structured 404",
+      "method": "tap"
+    }
+  },
+  "principles": {}
+}

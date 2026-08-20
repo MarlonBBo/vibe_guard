@@ -351,6 +351,15 @@
       "primeiraVez": "2026-08-20T05:25:57.156Z",
       "ultimaVez": "2026-08-20T05:25:57.156Z",
       "gitRev": "dfe96e4"
+    },
+    "VERIFY_OBSOLETO::fundacao-executavel::—": {
+      "codigo": "VERIFY_OBSOLETO",
+      "feature": "fundacao-executavel",
+      "ref": "—",
+      "ocorrencias": 1,
+      "primeiraVez": "2026-08-20T05:45:44.228Z",
+      "ultimaVez": "2026-08-20T05:45:44.229Z",
+      "gitRev": "50b674d"
     }
   }
 }

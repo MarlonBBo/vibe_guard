@@ -1,6 +1,6 @@
 # Plano de execução — catalogo-repositorios
 
-> gerado por `onp-spec plano` em 2026-08-20 05:30 — NÃO edite à mão;
+> gerado por `onp-spec plano` em 2026-08-20 05:37 — NÃO edite à mão;
 > mudou tasks.md ou a config? Regenere: `onp-spec plano catalogo-repositorios --paralelizar T-006,T-007 --modelo gpt-5.6-terra --esforco medium`
 
 ## Resumo — o que vai acontecer
@@ -11,6 +11,11 @@
 - prefere outra seleção ou uma após a outra? Regenere com `onp-spec plano catalogo-repositorios --paralelizar T-xxx,T-yyy` ou `--sequencial`
 - **custo travado pelo usuário**: modelo `gpt-5.6-terra` · esforço `medium` em TODAS as tarefas (vence tasks.md e config)
 - tudo acontece na branch de trabalho `spec/catalogo-repositorios`; levar para a main é decisão sua
+
+### Avisos
+
+- ⚠ T-006 está [em-andamento] — entrou no plano; se já houver trabalho local, commite antes de executar
+- ⚠ T-007 está [em-andamento] — entrou no plano; se já houver trabalho local, commite antes de executar
 
 ## Faixas e ondas
 

@@ -1,7 +1,7 @@
 # Spec: Catalogo de repositorios
 
 > feature: catalogo-repositorios
-> status: pronta
+> status: auditada
 
 ## Contexto
 

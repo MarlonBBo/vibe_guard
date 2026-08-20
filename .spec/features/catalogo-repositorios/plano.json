@@ -1,5 +1,5 @@
 {
-  "runId": "vibe_guard-catalogo-repositorios-mt130phs",
+  "runId": "vibe_guard-catalogo-repositorios-mt13a3bs",
   "feature": "catalogo-repositorios",
   "agent": "codex",
   "modo": "paralelo",
@@ -9,7 +9,7 @@
   ],
   "modeloForcado": "gpt-5.6-terra",
   "esforcoForcado": "medium",
-  "geradoEm": "2026-08-20 05:30",
+  "geradoEm": "2026-08-20 05:37",
   "branchTrabalho": "spec/catalogo-repositorios",
   "baseDir": ".spec/features/catalogo-repositorios",
   "specDir": ".spec",
@@ -86,8 +86,10 @@
         "src/modules/repositories/repository-schemas.ts",
         "src/modules/repositories/github-repository.ts",
         "src/modules/repositories/repository-store.ts",
+        "src/infrastructure/postgres.ts",
         "src/app/create-app.ts",
         "src/app/server.ts",
+        "tests/readiness.test.ts",
         "tests/repositories-api.test.ts"
       ],
       "refs": [
@@ -105,5 +107,8 @@
     }
   ],
   "concluidas": [],
-  "avisos": []
+  "avisos": [
+    "T-006 está [em-andamento] — entrou no plano; se já houver trabalho local, commite antes de executar",
+    "T-007 está [em-andamento] — entrou no plano; se já houver trabalho local, commite antes de executar"
+  ]
 }

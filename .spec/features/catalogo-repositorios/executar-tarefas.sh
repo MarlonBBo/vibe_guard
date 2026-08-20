@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# executar-tarefas.sh — gerado por `onp-spec plano catalogo-repositorios` em 2026-08-20 05:30
+# executar-tarefas.sh — gerado por `onp-spec plano catalogo-repositorios` em 2026-08-20 05:37
 # NÃO edite à mão: mudou tasks.md ou a config, regenere o plano.
 #
 # uso:
@@ -14,7 +14,7 @@
 set -u
 set -o pipefail
 
-RUN_ID='vibe_guard-catalogo-repositorios-mt130phs'
+RUN_ID='vibe_guard-catalogo-repositorios-mt13a3bs'
 FEATURE='catalogo-repositorios'
 BASE_BRANCH='spec/catalogo-repositorios'
 ENGINE='.agents/skills/onp-spec-driven/scripts/onp-spec.mjs'
@@ -237,7 +237,7 @@ Leia primeiro: .spec/features/catalogo-repositorios/spec.md, .spec/features/cata
 Sua tarefa (somente ela):
 T-008 — "Expor a API de repositorios e integrar a aplicacao"
   critérios/refs: AC-010 (Repositorio GitHub valido e cadastrado), AC-011 (Entrada invalida e recusada), AC-012 (Repositorio inacessivel e recusado), AC-013 (Cadastro duplicado e recusado), AC-014 (Catalogo completo listado de forma deterministica), AC-015 (Repositorio encontrado pelo identificador), AC-016 (Repositorio inexistente informado claramente)
-  arquivos permitidos (e seus testes): src/modules/repositories/repositories-router.ts, src/modules/repositories/repository-schemas.ts, src/modules/repositories/github-repository.ts, src/modules/repositories/repository-store.ts, src/app/create-app.ts, src/app/server.ts, tests/repositories-api.test.ts
+  arquivos permitidos (e seus testes): src/modules/repositories/repositories-router.ts, src/modules/repositories/repository-schemas.ts, src/modules/repositories/github-repository.ts, src/modules/repositories/repository-store.ts, src/infrastructure/postgres.ts, src/app/create-app.ts, src/app/server.ts, tests/readiness.test.ts, tests/repositories-api.test.ts
   mensagem de commit: "T-008 catalogo-repositorios: Expor a API de repositorios e integrar a aplicacao"
 
 Regras inegociáveis:

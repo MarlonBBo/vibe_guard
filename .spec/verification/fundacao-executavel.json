@@ -1,11 +1,11 @@
 {
   "feature": "fundacao-executavel",
-  "timestamp": "2026-08-20T04:56:09.342Z",
-  "gitRev": "2136fe4",
+  "timestamp": "2026-08-20T05:45:58.194Z",
+  "gitRev": "50b674d",
   "command": "npm test --silent",
   "reporter": "tap",
   "exitCode": 0,
-  "testsParsed": 12,
+  "testsParsed": 27,
   "results": {
     "AC-001": {
       "status": "pass",
