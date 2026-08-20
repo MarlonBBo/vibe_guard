@@ -1,0 +1,163 @@
+{
+  "runId": "vibe_guard-fundacao-executavel-mt10t2x0",
+  "feature": "fundacao-executavel",
+  "agent": "codex",
+  "modo": "paralelo",
+  "paralelizar": null,
+  "modeloForcado": null,
+  "esforcoForcado": null,
+  "geradoEm": "2026-08-20 04:28",
+  "branchTrabalho": "spec/fundacao-executavel",
+  "baseDir": ".spec/features/fundacao-executavel",
+  "specDir": ".spec",
+  "repoName": "vibe_guard",
+  "logsDir": "../onp-worktrees/vibe_guard-fundacao-executavel-logs",
+  "ondas": [
+    [
+      "faixa-1",
+      "faixa-2",
+      "faixa-3"
+    ],
+    [
+      "faixa-4",
+      "faixa-5"
+    ]
+  ],
+  "faixas": [
+    {
+      "id": "faixa-1",
+      "branch": "spec/fundacao-executavel-faixa-1",
+      "worktree": "../onp-worktrees/vibe_guard-fundacao-executavel-faixa-1",
+      "tarefas": [
+        {
+          "id": "T-001",
+          "titulo": "Configurar toolchain e manifesto",
+          "modelo": "gpt-5.6-terra",
+          "esforco": "medium",
+          "arquivos": [
+            "package.json",
+            "package-lock.json",
+            "tsconfig.json",
+            "eslint.config.js",
+            ".gitignore",
+            ".dockerignore",
+            "tests/toolchain.test.ts"
+          ],
+          "refs": [
+            "US-001",
+            "AC-001",
+            "AC-002",
+            "US-005",
+            "AC-009"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faixa-2",
+      "branch": "spec/fundacao-executavel-faixa-2",
+      "worktree": "../onp-worktrees/vibe_guard-fundacao-executavel-faixa-2",
+      "tarefas": [
+        {
+          "id": "T-002",
+          "titulo": "Criar configuração, logging e aplicação HTTP",
+          "modelo": "gpt-5.6-terra",
+          "esforco": "medium",
+          "arquivos": [
+            "src/config/env.ts",
+            "src/shared/logger.ts",
+            "src/app/create-app.ts",
+            "src/app/server.ts",
+            "src/app/health.ts",
+            "tests/app-foundation.test.ts"
+          ],
+          "refs": [
+            "US-002",
+            "AC-003",
+            "AC-004",
+            "US-003",
+            "AC-005"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faixa-3",
+      "branch": "spec/fundacao-executavel-faixa-3",
+      "worktree": "../onp-worktrees/vibe_guard-fundacao-executavel-faixa-3",
+      "tarefas": [
+        {
+          "id": "T-003",
+          "titulo": "Integrar PostgreSQL, Redis, worker e readiness",
+          "modelo": "gpt-5.6-terra",
+          "esforco": "medium",
+          "arquivos": [
+            "src/infrastructure/postgres.ts",
+            "src/infrastructure/redis.ts",
+            "src/app/readiness.ts",
+            "src/workers/index.ts",
+            "tests/readiness.test.ts",
+            "migrations/001-initial.sql"
+          ],
+          "refs": [
+            "US-002",
+            "AC-003",
+            "AC-004",
+            "US-003",
+            "AC-006"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faixa-4",
+      "branch": "spec/fundacao-executavel-faixa-4",
+      "worktree": "../onp-worktrees/vibe_guard-fundacao-executavel-faixa-4",
+      "tarefas": [
+        {
+          "id": "T-004",
+          "titulo": "Configurar ambiente Docker Compose",
+          "modelo": "gpt-5.6-terra",
+          "esforco": "medium",
+          "arquivos": [
+            "Dockerfile",
+            "docker-compose.yml",
+            ".env.example",
+            "tests/compose-contract.test.ts"
+          ],
+          "refs": [
+            "US-004",
+            "AC-007"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faixa-5",
+      "branch": "spec/fundacao-executavel-faixa-5",
+      "worktree": "../onp-worktrees/vibe_guard-fundacao-executavel-faixa-5",
+      "tarefas": [
+        {
+          "id": "T-005",
+          "titulo": "Configurar integração contínua e documentação operacional",
+          "modelo": "gpt-5.6-terra",
+          "esforco": "medium",
+          "arquivos": [
+            ".github/workflows/ci.yml",
+            "README.md",
+            "tests/ci-contract.test.ts"
+          ],
+          "refs": [
+            "US-001",
+            "AC-002",
+            "US-005",
+            "AC-008"
+          ]
+        }
+      ]
+    }
+  ],
+  "sequenciais": [],
+  "concluidas": [],
+  "avisos": []
+}
