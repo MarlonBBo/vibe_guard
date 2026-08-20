@@ -1,0 +1,11 @@
+{
+  "feature": "fundacao-executavel",
+  "timestamp": "2026-08-20T04:42:21.295Z",
+  "gitRev": "b6074b7",
+  "command": "node --test",
+  "reporter": "tap",
+  "exitCode": 0,
+  "testsParsed": 0,
+  "results": {},
+  "principles": {}
+}
