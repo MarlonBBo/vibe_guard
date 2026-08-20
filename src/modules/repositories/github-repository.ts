@@ -64,8 +64,9 @@ export function canonicalizeGitHubRepositoryUrl(input: unknown): Omit<GitHubRepo
     throw new GitHubRepositoryValidationError();
   }
 
-  const [owner, rawName] = pathSegments;
-  const name = rawName.endsWith('.git') ? rawName.slice(0, -4) : rawName;
+  const [rawOwner, rawName] = pathSegments;
+  const owner = rawOwner.toLowerCase();
+  const name = (rawName.replace(/\.git$/i, '')).toLowerCase();
   if (!owner || !name) {
     throw new GitHubRepositoryValidationError();
   }

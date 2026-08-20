@@ -2,6 +2,7 @@ import { createApp } from './create-app.js';
 import { loadEnv } from '../config/env.js';
 import { createPostgresConnection } from '../infrastructure/postgres.js';
 import { createRedisConnection } from '../infrastructure/redis.js';
+import { RepositoryStore } from '../modules/repositories/repository-store.js';
 import { createLogger } from '../shared/logger.js';
 
 export function startServer(): ReturnType<ReturnType<typeof createApp>['listen']> {
@@ -9,7 +10,7 @@ export function startServer(): ReturnType<ReturnType<typeof createApp>['listen']
   const logger = createLogger(config, 'api');
   const postgres = createPostgresConnection(config.DATABASE_URL);
   const redis = createRedisConnection(config.REDIS_URL);
-  const app = createApp(logger, { postgres, redis });
+  const app = createApp(logger, { postgres, redis }, { store: new RepositoryStore(postgres) });
   const server = app.listen(config.PORT, () => {
     logger.info({ port: config.PORT }, 'API server started');
   });

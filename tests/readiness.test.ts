@@ -52,6 +52,7 @@ test('@spec:AC-004 worker emits a structured service log and closes both connect
   const connection = (name: string) => ({
     connect: async () => { calls.push(`${name}:connect`); },
     ping: async () => undefined,
+    query: async <Row extends object>() => ({ rows: [] as Row[] }),
     close: async () => { calls.push(`${name}:close`); },
   });
 
